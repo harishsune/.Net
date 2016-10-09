@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DynamicInterface>
+  <CustomMenu>
+    <CustomMenuItems Header="File"></CustomMenuItems>
+    <CustomMenuItems Header="Edit"></CustomMenuItems>
+    <CustomMenuItems Header="View"></CustomMenuItems>
+  </CustomMenu>
+  <CustomForm Height="850" Width="450" Name="DynamicForm">
+    <InputCollection>
+      <CustomButton Text="Hello" OnClick="mspaint.exe"></CustomButton>
+      <CustomTextBox IsMultiLine="True" Height="159" Width="560" X="53" Y="117"></CustomTextBox>
+    </InputCollection>
+  </CustomForm>
+</DynamicInterface>
